@@ -1,0 +1,63 @@
+main {
+    padding-top: 4.03rem;
+}
+
+.tarefe-back {
+    background: rgba(14, 107, 206, 0.176);
+}
+
+.nazarat-img-box {
+    width: 38%;
+    height: 28rem;
+    margin: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nazarat-img {
+    width: 100%;
+    height: 100%;
+}
+
+.nazarat-info {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 20%;
+    font-family: 'sahel';
+}
+
+#aline-right {
+    text-align: right;
+}
+
+#aline-left {
+    padding: 0 13.9rem 0 0;
+}
+
+.nazarat-name {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    color: #15cf;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.61);
+}
+
+.nazarat-job {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: rgb(25, 80, 175);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.61);
+}
+
+.nazarat-explain {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: rgb(84, 158, 255);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.61);
+}
+
+.khat {
+    border: 1px dashed red;
+    width: 95%;
+    margin: auto;
+}

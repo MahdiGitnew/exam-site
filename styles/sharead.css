@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'sahel';
+    src: url(../fonts/Sahel-FD.woff);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+#header {
+    position: fixed;
+    width: 100vw;
+    height: 2.3rem;
+    background: #15cf;
+    z-index: 1;
+}
+
+.site-logo {
+    margin: 0.3rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.logo:hover {
+    color: #F6AE2D;
+}
+
+.header-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 4.8rem);
+    vertical-align: middle;
+}
+
+.items-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'sahel';
+}
+
+.item-nav {
+    transition: 1.5s;
+    display: inline-block;
+    padding: 0rem 0.5rem;
+    margin: 0.3rem;
+}
+
+.items-nav a {
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+
+.item-nav a:hover {
+    transition: 0.3s;
+    color: rgb(255, 234, 0);
+    cursor: pointer;
+}
+
+.item-nav-bold {
+    transition: 1s;
+    background-color: #ffffff;
+    border-radius: 0 0 0.3rem 0.3rem;
+    padding-top: 0.3rem;
+    margin-top: 0.0300rem;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.item-nav-bold:hover {
+    background-color: #15cf;
+}
+
+/* footer */
+
+#footer {
+    background: #15cf;
+    z-index: 1;
+}
+
+.fot-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.fot-items a {
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+
+.fot-items a:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: rgb(255, 234, 0);
+}
+
+.fot-item {
+    display: inline-block;
+    padding: 0.5rem;
+    font-family: 'sahel';
+    font-size: 1rem;
+}
+
+/* responsiv */
+
+@media (min-width:40rem) {
+    #header {
+        height: 4rem;
+    }
+
+    .site-logo {
+        margin: 0.625rem;
+    }
+
+    .logo {
+        font-size: 2.1rem;
+    }
+
+    .items-nav {
+        font-size: 1.5rem;
+    }
+
+    .item-nav {
+        padding: 0 1rem;
+        margin: 0.625rem;
+    }
+
+    .header-nav {
+        width: calc(100% - 7.375rem);
+    }
+
+    .item-nav-bold {
+        padding-top: 0.625rem;
+        margin-top: 0.0625rem;
+        margin-right: 2rem;
+    }
+
+    .fot-item {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,112 @@
+main {
+    padding-top: 2.03rem;
+}
+
+.tarefe {
+    margin: 4.5rem 2rem 4.5rem 2rem;
+}
+
+.tarefe-margin--bottom {
+    margin-bottom: 16rem;
+}
+
+.tarefe-click {
+    position: relative;
+    display: block;
+    padding: 0.5rem;
+    width: 70%;
+    text-align: right;
+    text-decoration: none;
+    font-family: 'sahel';
+}
+
+.tarefe-title {
+    color: rgb(255, 255, 255);
+    padding: 0 0 1.5rem 0;
+    font-size: 1.4rem;
+}
+
+.tarefe-explan {
+    padding: 0.4rem;
+    background: rgb(255, 187, 0);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    color: aliceblue;
+}
+
+#promium {
+    background: rgba(80, 147, 235, 0.411);
+    border: 2px solid #15cf;
+}
+
+#pro {
+    float: right;
+    background: rgba(118, 170, 239, 0.405);
+    border: 2px solid rgb(25, 80, 175);
+}
+
+.watermark {
+    position: absolute;
+    background: red;
+    padding: 0 0.2rem;
+    border-radius: 0.5rem;
+    right: -0.5rem;
+    top: -1rem;
+    font-family: 'sahel';
+    font-size: 1rem;
+    color: black;
+}
+
+#promax {
+    background: rgba(140, 185, 244, 0.408);
+    border: 2px solid rgb(49, 79, 129);
+}
+
+#pronic {
+    float: right;
+    margin-bottom: 1.1rem;
+    background: rgba(165, 198, 240, 0.406);
+    border: 2px solid rgb(48, 68, 99);
+}
+
+.clear-both {
+    clear: both;
+}
+
+.back-image {
+    position: fixed;
+    background: url('../../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg')center/cover no-repeat fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* responsive */
+
+@media (min-width:40rem) {
+    .tarefe-click {
+        width: 35%;
+        padding: 2rem;
+    }
+
+    .tarefe-explan {
+        padding: 1.1rem;
+    }
+
+    .watermark {
+        padding: 0.04rem 0.4rem;
+        font-size: 1.3rem;
+    }
+
+    .tarefe-explan {
+        font-size: 1.2rem;
+    }
+
+    .tarefe-title {
+        font-size: 1.6rem;
+    }
+
+    main {
+        padding-top: 4.03rem;
+    }
+}
