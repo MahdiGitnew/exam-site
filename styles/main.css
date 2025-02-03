@@ -16,11 +16,11 @@
     left: 2.375rem;
     top: 2.2rem;
     background-color: #F6AE2D;
-    padding: 0.4rem 0;
+    padding: 0.2rem 0;
     width: 48%;
     border-radius: 0.625rem;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* section tarefe */
@@ -133,14 +133,14 @@
 .not-feture {
     position: absolute;
     right: 1rem;
-    top: 181.3rem;
+    top: 181.7rem;
     background-color: #F6AE2D;
-    padding: 0.4rem 0;
+    padding: 0.2rem 0;
     width: 48%;
     border-radius: 0.625rem;
     text-align: center;
     z-index: -1;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* backdrop */
@@ -159,10 +159,10 @@
     display: none;
     position: fixed;
     top: 40%;
-    left: 42.5%;
+    left: 16%;
     z-index: 100;
     background: #ffffff;
-    width: 15%;
+    width: 70%;
     padding: 1.4rem;
     text-align: center;
     border-radius: 0.4rem;
@@ -233,5 +233,11 @@
         padding: 0.625rem;
         width: 11%;
         font-size: 1rem;
+    }
+
+    .modal {
+        width: 15%;
+        padding: 1.4rem;
+        left: 42.5%;
     }
 }

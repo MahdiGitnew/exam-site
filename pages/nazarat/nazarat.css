@@ -1,5 +1,5 @@
 main {
-    padding-top: 4.03rem;
+    padding-top: 2.3rem;
 }
 
 .tarefe-back {
@@ -7,11 +7,10 @@ main {
 }
 
 .nazarat-img-box {
-    width: 38%;
+    width: 100%;
     height: 28rem;
-    margin: 2rem;
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
+    padding: 1rem;
 }
 
 .nazarat-img {
@@ -20,10 +19,8 @@ main {
 }
 
 .nazarat-info {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: right;
-    width: 20%;
+    display: block;
+    text-align: center;
     font-family: 'sahel';
 }
 
@@ -32,7 +29,7 @@ main {
 }
 
 #aline-left {
-    padding: 0 13.9rem 0 0;
+    padding: 1rem;
 }
 
 .nazarat-name {
@@ -60,4 +57,29 @@ main {
     border: 1px dashed red;
     width: 95%;
     margin: auto;
+}
+
+@media (min-width:40rem) {
+
+    main {
+        padding-top: 4.03rem;
+    }
+
+    .nazarat-img-box {
+        width: 38%;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 2rem;
+    }
+
+    .nazarat-info {
+        display: inline-block;
+        vertical-align: middle;
+        width: 20%;
+        text-align: right;
+    }
+
+    #aline-left {
+        padding: 0 13.9rem 0 0;
+    }
 }
