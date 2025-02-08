@@ -1,0 +1,135 @@
+main {
+    padding: 2rem;
+    direction: rtl;
+}
+
+body {
+    background-color: #001d3d;
+}
+
+.img-box--acount {
+    margin: 4rem auto;
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.img-box--acount img {
+    width: 100%;
+    height: 100%;
+}
+
+.from-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.type-open {
+    text-align: center;
+    font-family: 'sahel';
+    color: #ffffff;
+}
+
+.startplay {
+    text-align: center;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: 'sahel';
+    font-size: 0.9rem;
+}
+
+.startplay a {
+    text-decoration: none;
+    color: rgb(0, 183, 88);
+}
+
+.form-box {
+    padding-top: 1rem;
+    background: #003566;
+    width: 100%;
+    height: 21.5rem;
+    margin: 5rem auto;
+    margin-top: 2.5rem;
+    border-radius: 10px;
+}
+
+.order-form input {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    width: 90%;
+    font: inherit;
+}
+
+.order-form input {
+    border-radius: 5px;
+    outline: none;
+    background: #135796;
+    border: none;
+}
+
+.order-form input::placeholder {
+    color: rgba(239, 239, 239, 0.292);
+    font-family: 'sahel';
+    font-size: 0.75rem;
+}
+
+.order-form input:focus {
+    border:0.5px solid #b4bbc1;
+}
+
+.order-form .box-btm button {
+    display: block;
+    background-color: rgb(0 156 75);
+    padding: 0.5rem 7.3rem;
+    margin: 1rem auto;
+    border: none;
+    font: inherit;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'sahel';
+    font-size: 0.8rem;
+}
+
+.order-form .box-btm button:hover {
+    background-color: rgb(0, 138, 67);
+}
+
+.open {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.secure {
+    float: left;
+    margin-left: 1rem;
+}
+
+.secure a {
+    color: #cfcfcf;
+    font-size: 0.8rem;
+    font-family: 'sahel';
+}
+
+.open-email {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.open-email a {
+    text-decoration: none;
+    color: #cfcfcf;
+    font-size: 0.8rem;
+    font-family: 'sahel';
+}
+
+/* responsive */
+
+@media (min-width:40rem) {
+    .form-box {
+        width: 20%;
+    }
+}
