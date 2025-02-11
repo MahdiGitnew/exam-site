@@ -7,6 +7,28 @@ body {
     background-color: #001d3d;
 }
 
+.circel-shadow {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background: #a9b02bc5;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    filter: blur(15rem);
+}
+
+.circel-shadow2 {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background: #5ec247;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    filter: blur(15rem);
+}
+
 .img-box--acount {
     margin: 1rem auto;
     margin-bottom: 1rem;
@@ -131,9 +153,34 @@ body {
 @media (min-width:40rem) {
     .form-box {
         width: 20%;
+        height: 23.8rem;
     }
 
     .img-box--acount {
-        margin: 4rem auto;
+        margin: 6rem auto;
+        margin-bottom: 1rem;
+        width: 8rem;
+        height: 8rem;
     }
+
+    .order-form input {
+        padding: 0.7rem;
+    }
+
+    .order-form .box-btm button {
+        padding: 0.6rem 9.6rem;
+    }
+
+    .type-open {
+        font-size: 1.3rem;
+    }
+
+    .startplay {
+        font-size: 1.01rem;
+    }
+
+    .from-title {
+        font-size: 1.7rem;
+    }
+
 }

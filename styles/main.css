@@ -197,7 +197,7 @@
 @media (min-width:40rem) {
     .tarefe {
         display: inline-block;
-        width: 30%;
+        width: 29%;
         margin: 1.101rem;
     }
 
@@ -206,17 +206,12 @@
         width: 30%;
     }
 
-    .not-feture {
-        top: 109.5rem;
-        width: 11%;
-    }
-
     #site-img {
         height: 55rem;
     }
 
     .not {
-        width: 11%;
+        width: 14%;
         left: 4.375rem;
         top: 3.75rem;
         font-size: 1rem;
@@ -229,9 +224,9 @@
 
     .not-feture {
         right: 2rem;
-        top: 114.1rem;
+        top: 114rem;
         padding: 0.625rem;
-        width: 11%;
+        width: 14%;
         font-size: 1rem;
     }
 
