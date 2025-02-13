@@ -12,8 +12,8 @@ body {
     top: 0rem;
     left: 0rem;
     background: #a9b02bc5;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     filter: blur(3rem);
 }
@@ -23,8 +23,8 @@ body {
     bottom: 0rem;
     right: 0rem;
     background: #5ec247;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     filter: blur(3rem);
 }
