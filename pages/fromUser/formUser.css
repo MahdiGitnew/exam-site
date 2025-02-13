@@ -9,24 +9,24 @@ body {
 
 .circel-shadow {
     position: absolute;
-    top: 2rem;
-    left: 2rem;
+    top: 0rem;
+    left: 0rem;
     background: #a9b02bc5;
-    width: 15rem;
-    height: 15rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
-    filter: blur(15rem);
+    filter: blur(8rem);
 }
 
 .circel-shadow2 {
     position: absolute;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 0rem;
+    right: 0rem;
     background: #5ec247;
-    width: 15rem;
-    height: 15rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
-    filter: blur(15rem);
+    filter: blur(8rem);
 }
 
 .img-box--acount {
@@ -181,6 +181,22 @@ body {
 
     .from-title {
         font-size: 1.7rem;
+    }
+
+    .circel-shadow {
+        width: 15rem;
+        height: 15rem;
+        top: 2rem;
+        left: 2rem;
+        filter: blur(15rem);
+    }
+
+    .circel-shadow2 {
+        width: 15rem;
+        height: 15rem;
+        bottom: 2rem;
+        right: 2rem;
+        filter: blur(15rem);
     }
 
 }
