@@ -15,7 +15,7 @@ body {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    filter: blur(8rem);
+    filter: blur(1rem);
 }
 
 .circel-shadow2 {
